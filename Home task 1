@@ -1,0 +1,66 @@
+package com.metanit;
+import javax.swing.*;
+public class Main {
+    public static void Main(String[] args) {
+        //1 задача (конвертация int to string) 1 способ
+        int i = 10;//1 вариант конветации
+        String strI = String.valueOf(i);//1 вариант конвертации
+
+    }
+
+    //1 задача (конвертация int to string) 2 способ
+    {
+        int i = 10;//2 вариант конвертации
+        Integer.toString(i);//2 вариант конвертации
+    }
+
+    //2 задача (конвертация string to int) 1 способ
+    {
+        Str i = 10;//2 вариант конвертации
+        String.toInt(s);//2 вариант конвертации
+    }
+
+    // 2 задача (конвертация string to int) 2 способ
+    {
+        str i = 10;//1 вариант конвертации
+        Integer intI = integer.valueOf(i);//1 вариант конвертации
+    }
+
+    //3 задача (проверка четности либо нечетности числа)
+    int a = 10;
+
+    {
+        if ((a % 2) == 0) {
+            System.out.println("Чётное");
+        } else {
+            if ((a % 1) == 0) {
+                System.out.println("Нечетное");
+            }
+        }
+        //5 задача (определение наличия определенного символа в строке)
+        int b = 4;
+        str text = Hello; // str text это инициализация строки
+        if (string.contains("b") == false) {
+        }
+    }
+
+    //6 задача(перевод даты из часов в минуты и секунды)
+    {
+        int seconds = hours * 3600;//перевод часов в секунды
+        int minutes = hours * 60;//перевод часов в минуты
+        return hours + "часов = " + minutes + "мин или " + seconds + "секунд";
+    }
+//7 задача(перевод даты из секунд в минуты и часы )
+{
+        int minutes = sec / 60;//перевод секунд в минуты
+        int hours = sec / 3600;//перевод секунд в часы
+        return  seconds + " секунд = " + day + "дней " + hour + "часам " + minutes + "минутам " + remainingSeconds + " секундам";
+    }
+    //9 задача(вычисление площади и длины окружности по её радиусу)
+    {
+        int radius = 10;//инициализация радиуса
+        int area = 3.14 * r ^ 2;//инициализация формулы площади окружности
+        double length =2*3.14*radius;//инициализация формулы длины окружности
+        System.out.printf("area is %d%n" , area);//вывод результата вычислений по формуле площади окружности
+        System.out.printf("length is %d%n" , length);//вывод результата вычислений по формуле длины окружности
+    }}
